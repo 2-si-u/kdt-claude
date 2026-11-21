@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지원사업 | StartFit</title>
+    <link rel="stylesheet" href="css/supply.css">
+</head>
+<body>
+    <header class="gnb">
+        <div class="gnb-inner">
+            <a href="#" class="logo">
+                <img src="public/assets/icons/logo.svg" alt="" class="logo-mark">
+                <span class="logo-text">StartFit</span>
+            </a>
+            <nav class="gnb-menu">
+                <a href="#">서비스 소개</a>
+                <a href="#">분석도구</a>
+                <a href="#" class="is-active">지원사업</a>
+                <a href="#">게시판</a>
+                <a href="#">기획서 AI 분석</a>
+            </nav>
+            <div class="avatar">회</div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-head">
+            <p class="breadcrumb">홈 <span>›</span> 지원사업</p>
+            <h1 class="page-title">지원사업</h1>
+        </section>
+
+        <form class="search" id="searchForm" action="http://localhost:10000/search" method="get">
+            <div class="select-box">
+                <select name="type" id="searchType" aria-label="검색 범위">
+                    <option value="title">제목</option>
+                    <option value="content">내용</option>
+                    <option value="both" selected>제목 + 내용</option>
+                </select>
+                <img src="public/assets/icons/chevron-down.svg" alt="" class="select-arrow">
+            </div>
+            <div class="search-input">
+                <img src="public/assets/icons/search.svg" alt="" class="search-icon">
+                <input type="text" name="keyward" placeholder="제목이나 내용으로 검색" aria-label="검색어">
+            </div>
+            <button type="submit" class="search-btn">검색</button>
+        </form>
+
+        <div class="layout">
+            <aside class="sidebar">
+                <div class="alarm-card">
+                    <h2 class="card-title">마감 알림</h2>
+                    <p class="card-desc">북마크한 공고의 마감 3일 전에<br>이메일로 알려드려요.</p>
+                    <p class="card-mail">받는 메일 · heesu@startfit.kr</p>
+                    <button type="button" class="alarm-btn">알림 받기</button>
+                </div>
+
+                <div class="my-bookmark">
+                    <h2 class="side-title">내 북마크 <span class="count">2</span></h2>
+                    <p class="side-desc">북마크한 공고는 마이페이지 · 관심 지원사업에서도 볼 수 있어요.</p>
+                    <a href="#" class="side-link">마이페이지에서 보기 <img src="public/assets/icons/arrow-right.svg" alt="" class="inline-icon"></a>
+                </div>
+            </aside>
+
+            <section class="list">
+                <div class="list-head">
+                    <p class="list-count">공고 <strong>4건</strong></p>
+                    <p class="list-time">2026.11.11 14:00 조회</p>
+                </div>
+
+                <ul class="supply-list">
+                    <li class="supply-item">
+                        <div class="dday is-urgent">D-1</div>
+                        <div class="supply-body">
+                            <span class="tag">창업교육</span>
+                            <h3 class="supply-title">[로컬창업트랙 2기] 기억되는 브랜드가 되는 법</h3>
+                            <p class="supply-meta">관악구청 · 접수 2026.10.19 – 11.12</p>
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="bookmark-btn" data-supply-id="1" aria-label="북마크">
+                                <img src="public/assets/icons/star.svg" alt="" class="icon-star">
+                            </button>
+                            <a href="#" class="view-btn">공고 보기 <img src="public/assets/icons/arrow-up-right.svg" alt="" class="inline-icon"></a>
+                        </div>
+                    </li>
+
+                    <li class="supply-item">
+                        <div class="dday is-urgent">D-2</div>
+                        <div class="supply-body">
+                            <span class="tag tag-space">시설 · 공간</span>
+                            <h3 class="supply-title">(하반기) 2026년 서울창업허브 M+ 입주기업 모집</h3>
+                            <p class="supply-meta">서울경제진흥원 · 접수 2026.11.02 – 11.13</p>
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="bookmark-btn is-bookmarked" data-supply-id="2" aria-label="북마크 해제">
+                                <img src="public/assets/icons/star-filled.svg" alt="" class="icon-star">
+                            </button>
+                            <a href="#" class="view-btn">공고 보기 <img src="public/assets/icons/arrow-up-right.svg" alt="" class="inline-icon"></a>
+                        </div>
+                    </li>
+
+                    <li class="supply-item">
+                        <div class="dday">D-9</div>
+                        <div class="supply-body">
+                            <span class="tag tag-space">시설 · 공간</span>
+                            <h3 class="supply-title">2027년 서울시 청년 쿡 비즈니스 센터 참여 스타트업 모집</h3>
+                            <p class="supply-meta">서울특별시 · 청년쿡비즈니스센터 · 접수 2026.11.02 – 11.20</p>
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="bookmark-btn" data-supply-id="3" aria-label="북마크">
+                                <img src="public/assets/icons/star.svg" alt="" class="icon-star">
+                            </button>
+                            <a href="#" class="view-btn">공고 보기 <img src="public/assets/icons/arrow-up-right.svg" alt="" class="inline-icon"></a>
+                        </div>
+                    </li>
+
+                    <li class="supply-item">
+                        <div class="dday">D-15</div>
+                        <div class="supply-body">
+                            <span class="tag tag-space">시설 · 공간</span>
+                            <h3 class="supply-title">2026년 키친인큐베이터 개별 · 공유주방 25기 및 제조주방 13기 모집</h3>
+                            <p class="supply-meta">서울경제진흥원 · 접수 2026.11.02 – 11.26</p>
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="bookmark-btn is-bookmarked" data-supply-id="4" aria-label="북마크 해제">
+                                <img src="public/assets/icons/star-filled.svg" alt="" class="icon-star">
+                            </button>
+                            <a href="#" class="view-btn">공고 보기 <img src="public/assets/icons/arrow-up-right.svg" alt="" class="inline-icon"></a>
+                        </div>
+                    </li>
+                </ul>
+
+                <p class="list-notice">공고 보기를 누르면 해당 지원사업 공고 사이트로 이동해요. 공고 내용은 StartFit에 저장하지 않아요.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <p class="footer-logo">StartFit</p>
+                    <p class="footer-slogan">창업, 데이터로 먼저 확인하세요.</p>
+                </div>
+                <div class="footer-cols">
+                    <div class="footer-col">
+                        <h4>서비스</h4>
+                        <a href="#">분석도구</a>
+                        <a href="#">지원사업</a>
+                        <a href="#">기획서 AI 분석</a>
+                        <a href="#">게시판</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>데이터 출처</h4>
+                        <a href="#">소상공인시장진흥공단</a>
+                        <a href="#">서울시 상권분석서비스</a>
+                        <a href="#">한국부동산원</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>안내</h4>
+                        <a href="#">화면 속 수치는 예시에요</a>
+                        <a href="#">데이터 기준일 2026.10</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-watermark" aria-hidden="true">
+                <span>Start</span><span class="accent">Fit</span>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 StartFit</p>
+                <a href="#top" class="to-top">맨 위로 <img src="public/assets/icons/arrow-up.svg" alt="" class="inline-icon"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

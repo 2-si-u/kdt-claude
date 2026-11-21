@@ -1,0 +1,5 @@
+[     452ms] [WARNING] setPolicyInfo {versionInfo: Object, sdkInfo: Object, sentryInfo: Object} @ https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js:1
+[     670ms] [WARNING] Failed to decode downloaded font: https://ssl.pstatic.net/static/sports/fonts/NanumSquareNeoVariable.woff2 @ https://m.sports.naver.com/kbaseball/record/kbo?seasonCode=2026&tab=teamRank:1
+[     671ms] [WARNING] OTS parsing error: Unable to instantiate font face from font data. @ https://m.sports.naver.com/kbaseball/record/kbo?seasonCode=2026&tab=teamRank:1
+[     671ms] [WARNING] Failed to decode downloaded font: https://ssl.pstatic.net/static/sports/fonts/NanumSquareNeoVariable.woff2 @ https://m.sports.naver.com/kbaseball/record/kbo?seasonCode=2026&tab=teamRank:1
+[     671ms] [WARNING] OTS parsing error: Unable to instantiate font face from font data. @ https://m.sports.naver.com/kbaseball/record/kbo?seasonCode=2026&tab=teamRank:1

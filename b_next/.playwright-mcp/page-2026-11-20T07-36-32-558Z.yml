@@ -1,0 +1,970 @@
+- generic [ref=e2]:
+  - link "본문 바로가기" [ref=e4] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - heading [level=1] [ref=e8]:
+          - link "NAVER" [ref=e9] [cursor=pointer]:
+            - /url: https://www.naver.com
+          - link "스포츠" [ref=e14] [cursor=pointer]:
+            - /url: https://sports.news.naver.com/index
+        - generic [ref=e18]:
+          - link "뉴스" [ref=e19] [cursor=pointer]:
+            - /url: https://news.naver.com
+          - link "엔터" [ref=e20] [cursor=pointer]:
+            - /url: https://entertain.naver.com/home
+        - button "메뉴" [ref=e22] [cursor=pointer]
+      - navigation [ref=e27]:
+        - generic [ref=e28]:
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - link "홈" [ref=e31] [cursor=pointer]:
+                - /url: /index
+            - listitem [ref=e33]:
+              - link "야구" [ref=e34] [cursor=pointer]:
+                - /url: /kbaseball/index
+            - listitem [ref=e36]:
+              - link "해외야구" [ref=e37] [cursor=pointer]:
+                - /url: /wbaseball/index
+            - listitem [ref=e39]:
+              - link "축구" [ref=e40] [cursor=pointer]:
+                - /url: /kfootball/index
+            - listitem [ref=e42]:
+              - link "해외축구" [ref=e43] [cursor=pointer]:
+                - /url: /wfootball/index
+            - listitem [ref=e45]:
+              - link "농구" [ref=e46] [cursor=pointer]:
+                - /url: /basketball/index
+            - listitem [ref=e48]:
+              - link "배구" [ref=e49] [cursor=pointer]:
+                - /url: /volleyball/index
+            - listitem [ref=e51]:
+              - link "N골프" [ref=e52] [cursor=pointer]:
+                - /url: /golf/index
+            - listitem [ref=e54]:
+              - link "일반" [ref=e55] [cursor=pointer]:
+                - /url: /general/index
+            - listitem [ref=e57]:
+              - link "e스포츠" [ref=e58] [cursor=pointer]:
+                - /url: https://game.naver.com/esports
+            - listitem [ref=e60]:
+              - link "아웃도어" [ref=e61] [cursor=pointer]:
+                - /url: /outdoor/index
+          - generic [ref=e63]:
+            - generic [ref=e64]: MY팀을 설정해 주세요
+            - link "MY팀 설정" [ref=e70] [cursor=pointer]:
+              - /url: /myteam/index
+      - navigation [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "뉴스" [ref=e78] [cursor=pointer]:
+              - /url: /kbaseball/news
+          - listitem [ref=e79]:
+            - link "영상" [ref=e80] [cursor=pointer]:
+              - /url: /kbaseball/video
+          - listitem [ref=e81]:
+            - link "일정" [ref=e82] [cursor=pointer]:
+              - /url: /kbaseball/schedule/index
+          - listitem [ref=e83]:
+            - link "순위" [ref=e84] [cursor=pointer]:
+              - /url: /kbaseball/record/kbo
+          - listitem [ref=e85]:
+            - link "포토" [ref=e86] [cursor=pointer]:
+              - /url: /kbaseball/photo
+          - listitem [ref=e87]:
+            - link "K-BASEBALL" [ref=e88] [cursor=pointer]:
+              - /url: /event/kbs
+    - main [ref=e90]:
+      - heading "순위 및 기록" [level=2] [ref=e91]
+      - generic [ref=e95]:
+        - strong [ref=e96]: 리그 선택
+        - generic [ref=e98]:
+          - button "KBO리그" [pressed] [ref=e99] [cursor=pointer]
+          - button "퓨쳐스리그" [ref=e100] [cursor=pointer]
+      - heading "KBO리그" [level=3] [ref=e101]
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - combobox [ref=e107]:
+            - option "정규시즌" [selected]
+            - option "시범경기"
+          - generic [ref=e108]:
+            - emphasis [ref=e109]: "2026"
+            - button "이전 시즌" [ref=e110] [cursor=pointer]
+            - button "다음 시즌" [disabled] [ref=e114] [cursor=pointer]
+          - button "순위 안내" [ref=e120] [cursor=pointer]
+        - tablist [ref=e125]:
+          - generic [ref=e126]:
+            - tab "팀 순위" [selected] [ref=e127] [cursor=pointer]
+            - tab "팀 기록" [ref=e129] [cursor=pointer]
+            - tab "타자 기록" [ref=e131] [cursor=pointer]
+            - tab "투수 기록" [ref=e133] [cursor=pointer]
+      - tabpanel [ref=e135]:
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - img "포스트 시즌 토너먼드 일정" [ref=e140]
+            - generic [ref=e141]:
+              - heading "팀 순위" [level=4] [ref=e143]
+              - generic [ref=e145]:
+                - list [ref=e148]:
+                  - listitem [ref=e149]:
+                    - generic [ref=e150]: 순위
+                  - listitem [ref=e151]:
+                    - generic [ref=e152]: 승률
+                  - listitem [ref=e153]:
+                    - generic [ref=e154]: 게임차
+                  - listitem [ref=e155]:
+                    - generic [ref=e156]: 경기
+                  - listitem [ref=e157]:
+                    - generic [ref=e158]: 승
+                  - listitem [ref=e159]:
+                    - generic [ref=e160]: 패
+                  - listitem [ref=e161]:
+                    - generic [ref=e162]: 무
+                  - listitem [ref=e163]:
+                    - generic [ref=e164]: 연속
+                  - listitem [ref=e165]:
+                    - generic [ref=e166]: 타율
+                  - listitem [ref=e167]:
+                    - generic [ref=e168]: 평균자책
+                  - listitem [ref=e169]:
+                    - generic [ref=e170]: 최근 5경기
+                - list [ref=e173]:
+                  - listitem [ref=e174]:
+                    - generic [ref=e176]:
+                      - emphasis [ref=e177]:
+                        - text: "1"
+                        - generic [ref=e178]: 위
+                      - link "삼성" [ref=e179] [cursor=pointer]:
+                        - /url: /myteam/kbo/team/SS
+                    - generic [ref=e185]:
+                      - generic [ref=e186]: wra
+                      - text: "0.589"
+                    - generic [ref=e189]:
+                      - generic [ref=e190]: gameBehind
+                      - text: "8.0"
+                    - generic [ref=e193]:
+                      - generic [ref=e194]: gameCount
+                      - text: "144"
+                    - generic [ref=e197]:
+                      - generic [ref=e198]: winGameCount
+                      - text: "83"
+                    - generic [ref=e201]:
+                      - generic [ref=e202]: loseGameCount
+                      - text: "58"
+                    - generic [ref=e205]:
+                      - generic [ref=e206]: drawnGameCount
+                      - text: "3"
+                    - generic [ref=e209]:
+                      - generic [ref=e210]: continuousGameResult
+                      - text: 4패
+                    - generic [ref=e213]:
+                      - generic [ref=e214]: offenseHra
+                      - text: "0.273"
+                    - generic [ref=e217]:
+                      - generic [ref=e218]: defenseEra
+                      - text: "4.31"
+                    - generic [ref=e220]:
+                      - generic [ref=e221]: 최근 경기
+                      - generic [ref=e222]: 승
+                      - generic [ref=e227]: 패
+                      - generic [ref=e232]: 패
+                      - generic [ref=e237]: 패
+                      - generic [ref=e242]:
+                        - generic [ref=e246]: 가장 최근 경기
+                        - generic [ref=e248]: 패
+                      - button "삼성 최근 경기 상세 보기" [ref=e249] [cursor=pointer]
+                  - listitem [ref=e253]:
+                    - generic [ref=e255]:
+                      - emphasis [ref=e256]:
+                        - text: "2"
+                        - generic [ref=e257]: 위
+                      - link "KT" [ref=e258] [cursor=pointer]:
+                        - /url: /myteam/kbo/team/KT
+                    - generic [ref=e264]:
+                      - generic [ref=e265]: wra
+                      - text: "0.647"
+                    - generic [ref=e268]:
+                      - generic [ref=e269]: gameBehind
+                      - text: "0.0"
+                    - generic [ref=e272]:
+                      - generic [ref=e273]: gameCount
+                      - text: "144"
+                    - generic [ref=e276]:
+                      - generic [ref=e277]: winGameCount
+                      - text: "90"
+                    - generic [ref=e280]:
+                      - generic [ref=e281]: loseGameCount
+                      - text: "49"
+                    - generic [ref=e284]:
+                      - generic [ref=e285]: drawnGameCount
+                      - text: "5"
+                    - generic [ref=e288]:
+                      - generic [ref=e289]: continuousGameResult
+                      - text: 10승
+                    - generic [ref=e292]:
+                      - generic [ref=e293]: offenseHra
+                      - text: "0.286"
+                    - generic [ref=e296]:
+                      - generic [ref=e297]: defenseEra
+                      - text: "4.14"
+                    - generic [ref=e299]:
+                      - generic [ref=e300]: 최근 경기
+                      - generic [ref=e301]: 승
+                      - generic [ref=e306]: 승
+                      - generic [ref=e311]: 승
+                      - generic [ref=e316]: 승
+                      - generic [ref=e321]:
+                        - generic [ref=e325]: 가장 최근 경기
+                        - generic [ref=e327]: 승
+                      - button "KT 최근 경기 상세 보기" [ref=e328] [cursor=pointer]
+                  - listitem [ref=e332]:
+                    - generic [ref=e334]:
+                      - emphasis [ref=e335]:
+                        - text: "3"
+                        - generic [ref=e336]: 위
+                      - link "KIA" [ref=e337] [cursor=pointer]:
+                        - /url: /myteam/kbo/team/HT
+                    - generic [ref=e343]:
+                      - generic [ref=e344]: wra
+                      - text: "0.556"
+                    - generic [ref=e347]:
+                      - generic [ref=e348]: gameBehind
+                      - text: "12.5"
+                    - generic [ref=e351]:
+                      - generic [ref=e352]: gameCount
+                      - text: "144"
+                    - generic [ref=e355]:
+                      - generic [ref=e356]: winGameCount
+                      - text: "79"
+                    - generic [ref=e359]:
+                      - generic [ref=e360]: loseGameCount
+                      - text: "63"
+                    - generic [ref=e363]:
+                      - generic [ref=e364]: drawnGameCount
+                      - text: "2"
+                    - generic [ref=e367]:
+                      - generic [ref=e368]: continuousGameResult
+                      - text: 1승
+                    - generic [ref=e371]:
+                      - generic [ref=e372]: offenseHra
+                      - text: "0.271"
+                    - generic [ref=e375]:
+                      - generic [ref=e376]: defenseEra
+                      - text: "4.27"
+                    - generic [ref=e378]:
+                      - generic [ref=e379]: 최근 경기
+                      - generic [ref=e380]: 승
+                      - generic [ref=e385]: 승
+                      - generic [ref=e390]: 승
+                      - generic [ref=e395]: 패
+                      - generic [ref=e400]:
+                        - generic [ref=e404]: 가장 최근 경기
+                        - generic [ref=e406]: 승
+                      - button "KIA 최근 경기 상세 보기" [ref=e407] [cursor=pointer]
+                  - listitem [ref=e411]:
+                    - generic [ref=e413]:
+                      - emphasis [ref=e414]:
+                        - text: "4"
+                        - generic [ref=e415]: 위
+                      - link "LG" [ref=e416] [cursor=pointer]:
+                        - /url: /myteam/kbo/team/LG
+                    - generic [ref=e423]:
+                      - generic [ref=e424]: wra
+                      - text: "0.545"
+                    - generic [ref=e427]:
+                      - generic [ref=e428]: gameBehind
+                      - text: "14.0"
+                    - generic [ref=e431]:
+                      - generic [ref=e432]: gameCount
+                      - text: "144"
+                    - generic [ref=e435]:
+                      - generic [ref=e436]: winGameCount
+                      - text: "78"
+                    - generic [ref=e439]:
+                      - generic [ref=e440]: loseGameCount
+                      - text: "65"
+                    - generic [ref=e443]:
+                      - generic [ref=e444]: drawnGameCount
+                      - text: "1"
+                    - generic [ref=e447]:
+                      - generic [ref=e448]: continuousGameResult
+                      - text: 1패
+                    - generic [ref=e451]:
+                      - generic [ref=e452]: offenseHra
+                      - text: "0.264"
+                    - generic [ref=e455]:
+                      - generic [ref=e456]: defenseEra
+                      - text: "4.81"
+                    - generic [ref=e458]:
+                      - generic [ref=e459]: 최근 경기
+                      - generic [ref=e460]: 승
+                      - generic [ref=e465]: 승
+                      - generic [ref=e470]: 패
+                      - generic [ref=e475]: 승
+                      - generic [ref=e480]:
+                        - generic [ref=e484]: 가장 최근 경기
+                        - generic [ref=e486]: 패
+                      - button "LG 최근 경기 상세 보기" [ref=e487] [cursor=pointer]
+                  - listitem [ref=e491]:
+                    - generic [ref=e493]:
+                      - emphasis [ref=e494]:
+                        - text: "5"
+                        - generic [ref=e495]: 위
+                      - link "두산" [ref=e496] [cursor=pointer]:
+                        - /url: /myteam/kbo/team/OB
+                    - generic [ref=e503]:
+                      - generic [ref=e504]: wra
+                      - text: "0.525"
+                    - generic [ref=e507]:
+                      - generic [ref=e508]: gameBehind
+                      - text: "17.0"
+                    - generic [ref=e511]:
+                      - generic [ref=e512]: gameCount
+                      - text: "144"
+                    - generic [ref=e515]:
+                      - generic [ref=e516]: winGameCount
+                      - text: "73"
+                    - generic [ref=e519]:
+                      - generic [ref=e520]: loseGameCount
+                      - text: "66"
+                    - generic [ref=e523]:
+                      - generic [ref=e524]: drawnGameCount
+                      - text: "5"
+                    - generic [ref=e527]:
+                      - generic [ref=e528]: continuousGameResult
+                      - text: 2패
+                    - generic [ref=e531]:
+                      - generic [ref=e532]: offenseHra
+                      - text: "0.267"
+                    - generic [ref=e535]:
+                      - generic [ref=e536]: defenseEra
+                      - text: "3.86"
+                    - generic [ref=e538]:
+                      - generic [ref=e539]: 최근 경기
+                      - generic [ref=e540]: 승
+                      - generic [ref=e545]: 승
+                      - generic [ref=e550]: 승
+                      - generic [ref=e555]: 패
+                      - generic [ref=e560]:
+                        - generic [ref=e564]: 가장 최근 경기
+                        - generic [ref=e566]: 패
+                      - button "두산 최근 경기 상세 보기" [ref=e567] [cursor=pointer]
+                  - listitem [ref=e571]:
+                    - generic [ref=e573]:
+                      - emphasis [ref=e574]:
+                        - text: "6"
+                        - generic [ref=e575]: 위
+                      - link "SSG" [ref=e576] [cursor=pointer]:
+                        - /url: /myteam/kbo/team/SK
+                    - generic [ref=e583]:
+                      - generic [ref=e584]: wra
+                      - text: "0.468"
+                    - generic [ref=e587]:
+                      - generic [ref=e588]: gameBehind
+                      - text: "25.0"
+                    - generic [ref=e591]:
+                      - generic [ref=e592]: gameCount
+                      - text: "144"
+                    - generic [ref=e595]:
+                      - generic [ref=e596]: winGameCount
+                      - text: "65"
+                    - generic [ref=e599]:
+                      - generic [ref=e600]: loseGameCount
+                      - text: "74"
+                    - generic [ref=e603]:
+                      - generic [ref=e604]: drawnGameCount
+                      - text: "5"
+                    - generic [ref=e607]:
+                      - generic [ref=e608]: continuousGameResult
+                      - text: 1패
+                    - generic [ref=e611]:
+                      - generic [ref=e612]: offenseHra
+                      - text: "0.259"
+                    - generic [ref=e615]:
+                      - generic [ref=e616]: defenseEra
+                      - text: "5.16"
+                    - generic [ref=e618]:
+                      - generic [ref=e619]: 최근 경기
+                      - generic [ref=e620]: 승
+                      - generic [ref=e625]: 패
+                      - generic [ref=e630]: 승
+                      - generic [ref=e635]: 승
+                      - generic [ref=e640]:
+                        - generic [ref=e644]: 가장 최근 경기
+                        - generic [ref=e646]: 패
+                      - button "SSG 최근 경기 상세 보기" [ref=e647] [cursor=pointer]
+                  - listitem [ref=e651]:
+                    - generic [ref=e653]:
+                      - emphasis [ref=e654]:
+                        - text: "7"
+                        - generic [ref=e655]: 위
+                      - link "롯데" [ref=e656] [cursor=pointer]:
+                        - /url: /myteam/kbo/team/LT
+                    - generic [ref=e663]:
+                      - generic [ref=e664]: wra
+                      - text: "0.454"
+                    - generic [ref=e667]:
+                      - generic [ref=e668]: gameBehind
+                      - text: "27.0"
+                    - generic [ref=e671]:
+                      - generic [ref=e672]: gameCount
+                      - text: "144"
+                    - generic [ref=e675]:
+                      - generic [ref=e676]: winGameCount
+                      - text: "64"
+                    - generic [ref=e679]:
+                      - generic [ref=e680]: loseGameCount
+                      - text: "77"
+                    - generic [ref=e683]:
+                      - generic [ref=e684]: drawnGameCount
+                      - text: "3"
+                    - generic [ref=e687]:
+                      - generic [ref=e688]: continuousGameResult
+                      - text: 2승
+                    - generic [ref=e691]:
+                      - generic [ref=e692]: offenseHra
+                      - text: "0.272"
+                    - generic [ref=e695]:
+                      - generic [ref=e696]: defenseEra
+                      - text: "4.72"
+                    - generic [ref=e698]:
+                      - generic [ref=e699]: 최근 경기
+                      - generic [ref=e700]: 패
+                      - generic [ref=e705]: 승
+                      - generic [ref=e710]: 패
+                      - generic [ref=e715]: 승
+                      - generic [ref=e720]:
+                        - generic [ref=e724]: 가장 최근 경기
+                        - generic [ref=e726]: 승
+                      - button "롯데 최근 경기 상세 보기" [ref=e727] [cursor=pointer]
+                  - listitem [ref=e731]:
+                    - generic [ref=e733]:
+                      - emphasis [ref=e734]:
+                        - text: "8"
+                        - generic [ref=e735]: 위
+                      - link "NC" [ref=e736] [cursor=pointer]:
+                        - /url: /myteam/kbo/team/NC
+                    - generic [ref=e743]:
+                      - generic [ref=e744]: wra
+                      - text: "0.451"
+                    - generic [ref=e747]:
+                      - generic [ref=e748]: gameBehind
+                      - text: "27.5"
+                    - generic [ref=e751]:
+                      - generic [ref=e752]: gameCount
+                      - text: "144"
+                    - generic [ref=e755]:
+                      - generic [ref=e756]: winGameCount
+                      - text: "64"
+                    - generic [ref=e759]:
+                      - generic [ref=e760]: loseGameCount
+                      - text: "78"
+                    - generic [ref=e763]:
+                      - generic [ref=e764]: drawnGameCount
+                      - text: "2"
+                    - generic [ref=e767]:
+                      - generic [ref=e768]: continuousGameResult
+                      - text: 1승
+                    - generic [ref=e771]:
+                      - generic [ref=e772]: offenseHra
+                      - text: "0.270"
+                    - generic [ref=e775]:
+                      - generic [ref=e776]: defenseEra
+                      - text: "4.79"
+                    - generic [ref=e778]:
+                      - generic [ref=e779]: 최근 경기
+                      - generic [ref=e780]: 패
+                      - generic [ref=e785]: 패
+                      - generic [ref=e790]: 패
+                      - generic [ref=e795]: 패
+                      - generic [ref=e800]:
+                        - generic [ref=e804]: 가장 최근 경기
+                        - generic [ref=e806]: 승
+                      - button "NC 최근 경기 상세 보기" [ref=e807] [cursor=pointer]
+                  - listitem [ref=e811]:
+                    - generic [ref=e813]:
+                      - emphasis [ref=e814]:
+                        - text: "9"
+                        - generic [ref=e815]: 위
+                      - link "한화" [ref=e816] [cursor=pointer]:
+                        - /url: /myteam/kbo/team/HH
+                    - generic [ref=e823]:
+                      - generic [ref=e824]: wra
+                      - text: "0.407"
+                    - generic [ref=e827]:
+                      - generic [ref=e828]: gameBehind
+                      - text: "33.5"
+                    - generic [ref=e831]:
+                      - generic [ref=e832]: gameCount
+                      - text: "144"
+                    - generic [ref=e835]:
+                      - generic [ref=e836]: winGameCount
+                      - text: "57"
+                    - generic [ref=e839]:
+                      - generic [ref=e840]: loseGameCount
+                      - text: "83"
+                    - generic [ref=e843]:
+                      - generic [ref=e844]: drawnGameCount
+                      - text: "4"
+                    - generic [ref=e847]:
+                      - generic [ref=e848]: continuousGameResult
+                      - text: 2패
+                    - generic [ref=e851]:
+                      - generic [ref=e852]: offenseHra
+                      - text: "0.273"
+                    - generic [ref=e855]:
+                      - generic [ref=e856]: defenseEra
+                      - text: "5.26"
+                    - generic [ref=e858]:
+                      - generic [ref=e859]: 최근 경기
+                      - generic [ref=e860]: 패
+                      - generic [ref=e865]: 승
+                      - generic [ref=e870]: 승
+                      - generic [ref=e875]: 패
+                      - generic [ref=e880]:
+                        - generic [ref=e884]: 가장 최근 경기
+                        - generic [ref=e886]: 패
+                      - button "한화 최근 경기 상세 보기" [ref=e887] [cursor=pointer]
+                  - listitem [ref=e891]:
+                    - generic [ref=e893]:
+                      - emphasis [ref=e894]:
+                        - text: "10"
+                        - generic [ref=e895]: 위
+                      - link "키움" [ref=e896] [cursor=pointer]:
+                        - /url: /myteam/kbo/team/WO
+                    - generic [ref=e903]:
+                      - generic [ref=e904]: wra
+                      - text: "0.357"
+                    - generic [ref=e907]:
+                      - generic [ref=e908]: gameBehind
+                      - text: "40.5"
+                    - generic [ref=e911]:
+                      - generic [ref=e912]: gameCount
+                      - text: "144"
+                    - generic [ref=e915]:
+                      - generic [ref=e916]: winGameCount
+                      - text: "50"
+                    - generic [ref=e919]:
+                      - generic [ref=e920]: loseGameCount
+                      - text: "90"
+                    - generic [ref=e923]:
+                      - generic [ref=e924]: drawnGameCount
+                      - text: "4"
+                    - generic [ref=e927]:
+                      - generic [ref=e928]: continuousGameResult
+                      - text: 1승
+                    - generic [ref=e931]:
+                      - generic [ref=e932]: offenseHra
+                      - text: "0.244"
+                    - generic [ref=e935]:
+                      - generic [ref=e936]: defenseEra
+                      - text: "5.30"
+                    - generic [ref=e938]:
+                      - generic [ref=e939]: 최근 경기
+                      - generic [ref=e940]: 승
+                      - generic [ref=e945]: 승
+                      - generic [ref=e950]: 패
+                      - generic [ref=e955]: 패
+                      - generic [ref=e960]:
+                        - generic [ref=e964]: 가장 최근 경기
+                        - generic [ref=e966]: 승
+                      - button "키움 최근 경기 상세 보기" [ref=e967] [cursor=pointer]
+          - generic [ref=e972]:
+            - heading "최근 10경기" [level=4] [ref=e974]
+            - generic [ref=e976]:
+              - list [ref=e979]:
+                - listitem [ref=e980]:
+                  - generic [ref=e981]: 순위
+                - listitem [ref=e982]:
+                  - button "최근 10경기 정렬" [pressed] [ref=e983] [cursor=pointer]:
+                    - text: 최근 10경기
+                    - generic [ref=e986]: 정렬
+                - listitem [ref=e987]:
+                  - button "타율 정렬" [ref=e988] [cursor=pointer]:
+                    - text: 타율
+                    - generic [ref=e991]: 정렬
+                - listitem [ref=e992]:
+                  - button "평균자책 정렬" [ref=e993] [cursor=pointer]:
+                    - text: 평균자책
+                    - generic [ref=e996]: 정렬
+                - listitem [ref=e997]:
+                  - button "득점 정렬" [ref=e998] [cursor=pointer]:
+                    - text: 득점
+                    - generic [ref=e1001]: 정렬
+                - listitem [ref=e1002]:
+                  - button "실점 정렬" [ref=e1003] [cursor=pointer]:
+                    - text: 실점
+                    - generic [ref=e1006]: 정렬
+                - listitem [ref=e1007]:
+                  - button "홈런 정렬" [ref=e1008] [cursor=pointer]:
+                    - text: 홈런
+                    - generic [ref=e1011]: 정렬
+                - listitem [ref=e1012]:
+                  - button "피홈런 정렬" [ref=e1013] [cursor=pointer]:
+                    - text: 피홈런
+                    - generic [ref=e1016]: 정렬
+              - list [ref=e1019]:
+                - listitem [ref=e1020]:
+                  - generic [ref=e1022]:
+                    - emphasis [ref=e1023]:
+                      - text: "1"
+                      - generic [ref=e1024]: 위
+                    - link "KT" [ref=e1025] [cursor=pointer]:
+                      - /url: /myteam/kbo/team/KT
+                  - generic [ref=e1032]:
+                    - generic [ref=e1033]: lastTenGameResult
+                    - text: 9승 0패 1무
+                  - generic [ref=e1036]:
+                    - generic [ref=e1037]: lastTenGameOffenseHra
+                    - text: "0.326"
+                  - generic [ref=e1040]:
+                    - generic [ref=e1041]: lastTenGameDefenseEra
+                    - text: "2.13"
+                  - generic [ref=e1044]:
+                    - generic [ref=e1045]: lastTenGameOffenseRun
+                    - text: "69"
+                  - generic [ref=e1048]:
+                    - generic [ref=e1049]: lastTenGameDefenseRun
+                    - text: "23"
+                  - generic [ref=e1052]:
+                    - generic [ref=e1053]: lastTenGameOffenseHr
+                    - text: "14"
+                  - generic [ref=e1056]:
+                    - generic [ref=e1057]: lastTenGameDefenseHr
+                    - text: "8"
+                - listitem [ref=e1058]:
+                  - generic [ref=e1060]:
+                    - emphasis [ref=e1061]:
+                      - text: "2"
+                      - generic [ref=e1062]: 위
+                    - link "KIA" [ref=e1063] [cursor=pointer]:
+                      - /url: /myteam/kbo/team/HT
+                  - generic [ref=e1070]:
+                    - generic [ref=e1071]: lastTenGameResult
+                    - text: 7승 3패 0무
+                  - generic [ref=e1074]:
+                    - generic [ref=e1075]: lastTenGameOffenseHra
+                    - text: "0.276"
+                  - generic [ref=e1078]:
+                    - generic [ref=e1079]: lastTenGameDefenseEra
+                    - text: "4.20"
+                  - generic [ref=e1082]:
+                    - generic [ref=e1083]: lastTenGameOffenseRun
+                    - text: "58"
+                  - generic [ref=e1086]:
+                    - generic [ref=e1087]: lastTenGameDefenseRun
+                    - text: "42"
+                  - generic [ref=e1090]:
+                    - generic [ref=e1091]: lastTenGameOffenseHr
+                    - text: "11"
+                  - generic [ref=e1094]:
+                    - generic [ref=e1095]: lastTenGameDefenseHr
+                    - text: "13"
+                - listitem [ref=e1096]:
+                  - generic [ref=e1098]:
+                    - emphasis [ref=e1099]:
+                      - text: "2"
+                      - generic [ref=e1100]: 위
+                    - link "SSG" [ref=e1101] [cursor=pointer]:
+                      - /url: /myteam/kbo/team/SK
+                  - generic [ref=e1108]:
+                    - generic [ref=e1109]: lastTenGameResult
+                    - text: 7승 3패 0무
+                  - generic [ref=e1112]:
+                    - generic [ref=e1113]: lastTenGameOffenseHra
+                    - text: "0.266"
+                  - generic [ref=e1116]:
+                    - generic [ref=e1117]: lastTenGameDefenseEra
+                    - text: "4.66"
+                  - generic [ref=e1120]:
+                    - generic [ref=e1121]: lastTenGameOffenseRun
+                    - text: "49"
+                  - generic [ref=e1124]:
+                    - generic [ref=e1125]: lastTenGameDefenseRun
+                    - text: "45"
+                  - generic [ref=e1128]:
+                    - generic [ref=e1129]: lastTenGameOffenseHr
+                    - text: "7"
+                  - generic [ref=e1132]:
+                    - generic [ref=e1133]: lastTenGameDefenseHr
+                    - text: "14"
+                - listitem [ref=e1134]:
+                  - generic [ref=e1136]:
+                    - emphasis [ref=e1137]:
+                      - text: "4"
+                      - generic [ref=e1138]: 위
+                    - link "두산" [ref=e1139] [cursor=pointer]:
+                      - /url: /myteam/kbo/team/OB
+                  - generic [ref=e1146]:
+                    - generic [ref=e1147]: lastTenGameResult
+                    - text: 6승 4패 0무
+                  - generic [ref=e1150]:
+                    - generic [ref=e1151]: lastTenGameOffenseHra
+                    - text: "0.296"
+                  - generic [ref=e1154]:
+                    - generic [ref=e1155]: lastTenGameDefenseEra
+                    - text: "5.11"
+                  - generic [ref=e1158]:
+                    - generic [ref=e1159]: lastTenGameOffenseRun
+                    - text: "61"
+                  - generic [ref=e1162]:
+                    - generic [ref=e1163]: lastTenGameDefenseRun
+                    - text: "52"
+                  - generic [ref=e1166]:
+                    - generic [ref=e1167]: lastTenGameOffenseHr
+                    - text: "8"
+                  - generic [ref=e1170]:
+                    - generic [ref=e1171]: lastTenGameDefenseHr
+                    - text: "11"
+                - listitem [ref=e1172]:
+                  - generic [ref=e1174]:
+                    - emphasis [ref=e1175]:
+                      - text: "5"
+                      - generic [ref=e1176]: 위
+                    - link "키움" [ref=e1177] [cursor=pointer]:
+                      - /url: /myteam/kbo/team/WO
+                  - generic [ref=e1184]:
+                    - generic [ref=e1185]: lastTenGameResult
+                    - text: 5승 5패 0무
+                  - generic [ref=e1188]:
+                    - generic [ref=e1189]: lastTenGameOffenseHra
+                    - text: "0.263"
+                  - generic [ref=e1192]:
+                    - generic [ref=e1193]: lastTenGameDefenseEra
+                    - text: "4.86"
+                  - generic [ref=e1196]:
+                    - generic [ref=e1197]: lastTenGameOffenseRun
+                    - text: "57"
+                  - generic [ref=e1200]:
+                    - generic [ref=e1201]: lastTenGameDefenseRun
+                    - text: "53"
+                  - generic [ref=e1204]:
+                    - generic [ref=e1205]: lastTenGameOffenseHr
+                    - text: "17"
+                  - generic [ref=e1208]:
+                    - generic [ref=e1209]: lastTenGameDefenseHr
+                    - text: "6"
+                - listitem [ref=e1210]:
+                  - generic [ref=e1212]:
+                    - emphasis [ref=e1213]:
+                      - text: "6"
+                      - generic [ref=e1214]: 위
+                    - link "롯데" [ref=e1215] [cursor=pointer]:
+                      - /url: /myteam/kbo/team/LT
+                  - generic [ref=e1222]:
+                    - generic [ref=e1223]: lastTenGameResult
+                    - text: 4승 5패 1무
+                  - generic [ref=e1226]:
+                    - generic [ref=e1227]: lastTenGameOffenseHra
+                    - text: "0.274"
+                  - generic [ref=e1230]:
+                    - generic [ref=e1231]: lastTenGameDefenseEra
+                    - text: "4.05"
+                  - generic [ref=e1234]:
+                    - generic [ref=e1235]: lastTenGameOffenseRun
+                    - text: "38"
+                  - generic [ref=e1238]:
+                    - generic [ref=e1239]: lastTenGameDefenseRun
+                    - text: "47"
+                  - generic [ref=e1242]:
+                    - generic [ref=e1243]: lastTenGameOffenseHr
+                    - text: "8"
+                  - generic [ref=e1246]:
+                    - generic [ref=e1247]: lastTenGameDefenseHr
+                    - text: "7"
+                - listitem [ref=e1248]:
+                  - generic [ref=e1250]:
+                    - emphasis [ref=e1251]:
+                      - text: "7"
+                      - generic [ref=e1252]: 위
+                    - link "삼성" [ref=e1253] [cursor=pointer]:
+                      - /url: /myteam/kbo/team/SS
+                  - generic [ref=e1260]:
+                    - generic [ref=e1261]: lastTenGameResult
+                    - text: 4승 6패 0무
+                  - generic [ref=e1264]:
+                    - generic [ref=e1265]: lastTenGameOffenseHra
+                    - text: "0.216"
+                  - generic [ref=e1268]:
+                    - generic [ref=e1269]: lastTenGameDefenseEra
+                    - text: "5.42"
+                  - generic [ref=e1272]:
+                    - generic [ref=e1273]: lastTenGameOffenseRun
+                    - text: "34"
+                  - generic [ref=e1276]:
+                    - generic [ref=e1277]: lastTenGameDefenseRun
+                    - text: "59"
+                  - generic [ref=e1280]:
+                    - generic [ref=e1281]: lastTenGameOffenseHr
+                    - text: "12"
+                  - generic [ref=e1284]:
+                    - generic [ref=e1285]: lastTenGameDefenseHr
+                    - text: "13"
+                - listitem [ref=e1286]:
+                  - generic [ref=e1288]:
+                    - emphasis [ref=e1289]:
+                      - text: "8"
+                      - generic [ref=e1290]: 위
+                    - link "한화" [ref=e1291] [cursor=pointer]:
+                      - /url: /myteam/kbo/team/HH
+                  - generic [ref=e1298]:
+                    - generic [ref=e1299]: lastTenGameResult
+                    - text: 3승 7패 0무
+                  - generic [ref=e1302]:
+                    - generic [ref=e1303]: lastTenGameOffenseHra
+                    - text: "0.267"
+                  - generic [ref=e1306]:
+                    - generic [ref=e1307]: lastTenGameDefenseEra
+                    - text: "5.34"
+                  - generic [ref=e1310]:
+                    - generic [ref=e1311]: lastTenGameOffenseRun
+                    - text: "53"
+                  - generic [ref=e1314]:
+                    - generic [ref=e1315]: lastTenGameDefenseRun
+                    - text: "59"
+                  - generic [ref=e1318]:
+                    - generic [ref=e1319]: lastTenGameOffenseHr
+                    - text: "10"
+                  - generic [ref=e1322]:
+                    - generic [ref=e1323]: lastTenGameDefenseHr
+                    - text: "17"
+                - listitem [ref=e1324]:
+                  - generic [ref=e1326]:
+                    - emphasis [ref=e1327]:
+                      - text: "8"
+                      - generic [ref=e1328]: 위
+                    - link "LG" [ref=e1329] [cursor=pointer]:
+                      - /url: /myteam/kbo/team/LG
+                  - generic [ref=e1336]:
+                    - generic [ref=e1337]: lastTenGameResult
+                    - text: 3승 7패 0무
+                  - generic [ref=e1340]:
+                    - generic [ref=e1341]: lastTenGameOffenseHra
+                    - text: "0.237"
+                  - generic [ref=e1344]:
+                    - generic [ref=e1345]: lastTenGameDefenseEra
+                    - text: "4.29"
+                  - generic [ref=e1348]:
+                    - generic [ref=e1349]: lastTenGameOffenseRun
+                    - text: "41"
+                  - generic [ref=e1352]:
+                    - generic [ref=e1353]: lastTenGameDefenseRun
+                    - text: "49"
+                  - generic [ref=e1356]:
+                    - generic [ref=e1357]: lastTenGameOffenseHr
+                    - text: "12"
+                  - generic [ref=e1360]:
+                    - generic [ref=e1361]: lastTenGameDefenseHr
+                    - text: "5"
+                - listitem [ref=e1362]:
+                  - generic [ref=e1364]:
+                    - emphasis [ref=e1365]:
+                      - text: "10"
+                      - generic [ref=e1366]: 위
+                    - link "NC" [ref=e1367] [cursor=pointer]:
+                      - /url: /myteam/kbo/team/NC
+                  - generic [ref=e1374]:
+                    - generic [ref=e1375]: lastTenGameResult
+                    - text: 2승 8패 0무
+                  - generic [ref=e1378]:
+                    - generic [ref=e1379]: lastTenGameOffenseHra
+                    - text: "0.268"
+                  - generic [ref=e1382]:
+                    - generic [ref=e1383]: lastTenGameDefenseEra
+                    - text: "6.10"
+                  - generic [ref=e1386]:
+                    - generic [ref=e1387]: lastTenGameOffenseRun
+                    - text: "44"
+                  - generic [ref=e1390]:
+                    - generic [ref=e1391]: lastTenGameDefenseRun
+                    - text: "63"
+                  - generic [ref=e1394]:
+                    - generic [ref=e1395]: lastTenGameOffenseHr
+                    - text: "7"
+                  - generic [ref=e1398]:
+                    - generic [ref=e1399]: lastTenGameDefenseHr
+                    - text: "10"
+          - paragraph [ref=e1401]:
+            - text: 네이버 스포츠에서 제공하는 일정, 결과, 기록 등의 데이터는 제공처의 사정에 따라 지연되거나 잘못 표시될 수 있습니다. 네이버(주)는 그에 따른 스포츠 데이터의 정확성 및 신뢰성을 담보하지 않습니다. 궁금하신 사항은
+            - link "고객센터" [ref=e1402] [cursor=pointer]:
+              - /url: https://help.naver.com/alias/contents2/sports/sports_2.naver
+            - text: 를 통해서 문의해주시기 바랍니다.
+    - contentinfo [ref=e1403]:
+      - generic [ref=e1404]:
+        - list [ref=e1407]:
+          - listitem [ref=e1408]:
+            - link "홈" [ref=e1409] [cursor=pointer]:
+              - /url: https://m.sports.naver.com/index
+          - listitem [ref=e1410]:
+            - link "야구" [ref=e1411] [cursor=pointer]:
+              - /url: https://m.sports.naver.com/kbaseball/index
+          - listitem [ref=e1412]:
+            - link "해외야구" [ref=e1413] [cursor=pointer]:
+              - /url: https://m.sports.naver.com/wbaseball/index
+          - listitem [ref=e1414]:
+            - link "축구" [ref=e1415] [cursor=pointer]:
+              - /url: https://m.sports.naver.com/kfootball/index
+          - listitem [ref=e1416]:
+            - link "해외축구" [ref=e1417] [cursor=pointer]:
+              - /url: https://m.sports.naver.com/wfootball/index
+          - listitem [ref=e1418]:
+            - link "농구" [ref=e1419] [cursor=pointer]:
+              - /url: https://m.sports.naver.com/basketball/index
+          - listitem [ref=e1420]:
+            - link "배구" [ref=e1421] [cursor=pointer]:
+              - /url: https://m.sports.naver.com/volleyball/index
+          - listitem [ref=e1422]:
+            - link "N골프" [ref=e1423] [cursor=pointer]:
+              - /url: https://m.sports.naver.com/golf/index
+          - listitem [ref=e1424]:
+            - link "일반" [ref=e1425] [cursor=pointer]:
+              - /url: https://m.sports.naver.com/general/index
+          - listitem [ref=e1426]:
+            - link "e스포츠" [ref=e1427] [cursor=pointer]:
+              - /url: https://game.naver.com/esports
+          - listitem [ref=e1428]:
+            - link "아웃도어" [ref=e1429] [cursor=pointer]:
+              - /url: /outdoor/index
+        - generic [ref=e1430]:
+          - generic [ref=e1431]:
+            - link "로그인" [ref=e1432] [cursor=pointer]:
+              - /url: https://nid.naver.com/nidlogin.login?svctype=262144&url=https%3A%2F%2Fm.sports.naver.com%2Fkbaseball%2Frecord%2Fkbo%3FseasonCode%3D2026%26tab%3DteamRank
+            - link "전체서비스" [ref=e1433] [cursor=pointer]:
+              - /url: https://m.naver.com/services.html?f=svc.sports
+            - link "문제신고" [ref=e1434] [cursor=pointer]:
+              - /url: https://help.naver.com/alias/contents2/sports/sports_6.naver
+            - link [ref=e1435] [cursor=pointer]:
+              - /url: https://policy.naver.com/policy-mobile/privacy.html
+              - strong [ref=e1436]: 개인정보처리방침
+            - link "고객센터" [ref=e1437] [cursor=pointer]:
+              - /url: https://help.naver.com/alias/contents2/sports/sports_2.naver
+            - button "네이버(주) 사업자정보" [expanded] [ref=e1438] [cursor=pointer]
+            - generic [ref=e1439]:
+              - generic [ref=e1440]:
+                - term [ref=e1441]: 대표이사
+                - definition [ref=e1442]: 최수연
+              - generic [ref=e1443]:
+                - term [ref=e1444]: 주소
+                - definition [ref=e1445]: 경기도 성남시 분당구 정자일로 95 NAVER 1784, 13561
+              - generic [ref=e1446]:
+                - term [ref=e1447]: 전화
+                - definition [ref=e1448]: 1588-3820 (대표전화/고객센터)
+              - generic [ref=e1449]:
+                - term [ref=e1450]: 이메일
+                - definition [ref=e1451]: ccnaver@naver.com
+              - generic [ref=e1452]:
+                - term [ref=e1453]: 사업자등록번호
+                - definition [ref=e1454]: 220-81-62517
+              - generic [ref=e1455]:
+                - term [ref=e1456]: 통신판매업자 신고번호
+                - definition [ref=e1457]: 제2006-경기성남-692호
+          - generic [ref=e1458]:
+            - 'link "기사배열 책임자 : 김수향" [ref=e1459] [cursor=pointer]':
+              - /url: https://news.naver.com/main/ombudsman/edit.naver?mid=omb
+            - generic [ref=e1460]: "청소년 보호 책임자 : 이정규"
+          - generic [ref=e1461]: 본 콘텐츠의 저작권은 제공처 또는 네이버에 있으며, 이를 무단 이용하는 경우 저작권법 등에 따라 법적 책임을 질 수 있습니다.
+          - generic [ref=e1462]:
+            - text: ©
+            - link "NAVER Corp." [ref=e1463] [cursor=pointer]:
+              - /url: https://www.navercorp.com/
